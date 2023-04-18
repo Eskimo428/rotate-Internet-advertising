@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ротатор рекламы</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">
+        Ротатор рекламы
+        </h1>
+    </header>
+    <main class="content">
+        <div class="card">
+            Элементы меняются с заданными параметрами цвета, скорости и размера
+            <p>
+                Здесь могла быть 
+                <span class="rotator">
+                <span class="rotator__case rotator__case_active" data-speed="1000" data-color="red" data-size="36px"> ваша реклама</span>
+                <span class="rotator__case" data-speed="2000" data-color="green" data-size="18px">смешная надпись</span>
+                <span class="rotator__case" data-speed="1000" data-color="rgb(5,10,250)" data-size="20px">научная статья</span>
+                <span class="rotator__case" data-speed="1000" data-color="red" data-size="32px">страница с промокодом</span>
+                <span class="rotator__case" data-speed="500" data-color="blue" data-size="18px">история Бенджамина Баттона</span>
+                <span class="rotator__case" data-speed="200" data-color="gray" data-size="28px">заметка со стихами</span>
+              </span>
+            </p>
+        </div>
+    </main>
+    
+    <script defer src="./script.js"></script>
+</body>
+</html>
